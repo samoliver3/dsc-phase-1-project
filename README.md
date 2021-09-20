@@ -42,7 +42,7 @@ In the analysis of studio and median total gross, Pixar/Dreamworks studio was sh
 
 ## Conclusions
 
-It is highly recommended that films produced by this studio fall under the category of adventure or action and adventure. It is also highly recommended that films have runtime between 75 and 170 minutes. It may also be useful to contract with some of the higher-grossing studios or do further analysis on how these studios operate to then emulate their practices.
+It is highly recommended that films produced by this studio fall under the category of adventure or action and adventure. It is also highly recommended that films have runtime between 75 and 170 minutes because high-grossing films (> $500M) typically have runtimes in this range. It may also be useful to contract with some of the higher-grossing studios or do further analysis on how these studios operate to then emulate their practices.
 
 This analysis should not be used as the end-all case for how to proceed with the production of films. This analysis is limited in so far as there may be other (better) indicators for successful movies. For example, a particular actor or director may be a better predictor for film success than the categories analyzed in this project.
 
@@ -59,9 +59,9 @@ Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-t
 ## Repository Structure
 
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── images
+├── zippedData
+├── student.ipynb
+├── phase1pres.pdf
+└── README.md                           <- The top-level README for reviewers of this project
 ```
