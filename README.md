@@ -33,11 +33,11 @@ Genres that includes action and adventure seem to do well in comparison to other
 
 The analysis of runtime shows that films that have a high median total gross (over about five-hundred million dollars) almost always have a runtime between about 75 and 170 minutes. This range is wide, but it is still useful for predicting the success of a film. Below is the visualization for this piece of analysis.
 
-![graph1](./images/gross_runtime.png)
+![graph2](./images/gross_runtime.png)
 
 In the analysis of studio and median total gross, Pixar/Dreamworks studio was shown to have the highest gross, by far with a median gross of over five-hundred million dollars per film. It should be noted that there are only ten films in the utilized data subset that were categorized under this studio. It should also be noted that Buena Vista, the second highest grossing studio is no longer an active studio. Below is the visualization for this piece of analysis.
 
-![graph1](./images/total_gross_studio.png)
+![graph3](./images/total_gross_studio.png)
 
 
 ## Conclusions
