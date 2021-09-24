@@ -21,13 +21,15 @@ Box Office Mojo and IMDB have publicly-available datasets about films. This anal
 
 The categories that I will use to compare with total gross will be runtime, genre, and studio. These categories will be used to act as indicators for how they affect the total gross of the film.
 
-The first category to consider is genre. The dataset will be sorted by total gross and grouped by genre. It will also remove genres that have very few representations within the dataset. The goal of this project is to find trends that are particularly telling for a film's success, and it is not helpful to use genres that only appear in the dataset once or a few times. Thus, this analysis includes the top 50 appearing genres, and all of these genres have appeared more than 10 times in the data. In this part of the analysis, the median total gross is chosen to compare with genre because there are multiple films that fall under each observed genre in this particular subset. The median renders an approach to observe a metric of centrality for these films, which will be particular useful in light of the goal of this project. The analysis for studio and total gross also follows this same subset process carried out in the genre analysis. The last category analyzed is runtime. Runtime is used to answer the question of what the length of successful films typically is.
+The median total (domestic and foreign) gross per genre and studio are evaluated, and runtime is evaluated in regards to total gross. In the genre dataset, there is a problem of dealing with films being categorized in multiple different genres. The subset of the data used for the genre portion of analysis created a data entry for each genre such that each film with an 'n' amount of genres would also have an 'n' amount of data entries- one for each genre.
+
+Each subset relating to the categories highlighted for analysis are then visualized to assist in indicating how they ought to be treated in light of the question of what characteristics are typically found in successful films.
 
 ## Results
 
 There are three points to evaluate in consideration of which characteristics of films in the datasets typically correlate with high grossing films: genre, runtime, and studio.
 
-Genres that includes action and adventure seem to do well in comparison to other films. Of the top ten genre categories, in terms of median total gross, five included both these genres, and adventure is included in the top eight of these ten. Below is the visualization for this piece of analysis.
+Films in animation, adventure, and sci-fi do much better than other genres. It is recommended that the film studio create animation films based on this data. Below is the visualization for this piece of analysis.
 
 ![graph1](./images/tot_gross_genre.png)
 
@@ -35,14 +37,14 @@ The analysis of runtime shows that films that have a high median total gross (ov
 
 ![graph2](./images/gross_runtime.png)
 
-In the analysis of studio and median total gross, Pixar/Dreamworks studio was shown to have the highest gross, by far with a median gross of over five-hundred million dollars per film. It should be noted that there are only ten films in the utilized data subset that were categorized under this studio. It should also be noted that Buena Vista, the second highest grossing studio is no longer an active studio. Below is the visualization for this piece of analysis.
+In the analysis of studio and median total gross, Pixar/Dreamworks studio was shown to have the highest gross, by far with a median gross of over five-hundred million dollars per film. It should be noted that there are only ten films in the utilized data subset that were categorized under this studio. It should also be noted that 'BV', the second highest grossing studio in this visualization, refers to Disney. Below is the visualization for this piece of analysis. It is a more conservative approach to partner with Disney, and a riskier endeavour to do so with Pixar/Dreamworks.
 
 ![graph3](./images/total_gross_studio.png)
 
 
 ## Conclusions
 
-It is highly recommended that films produced by this studio fall under the category of adventure or action and adventure. It is also highly recommended that films have runtime between 75 and 170 minutes because high-grossing films (> $500M) typically have runtimes in this range. It may also be useful to contract with some of the higher-grossing studios or do further analysis on how these studios operate to then emulate their practices.
+It is highly recommended that films produced by this studio fall under the category of adventure or action and adventure. It is also highly recommended that films have runtime between 75 and 170 minutes because high-grossing films (> $500M) typically have runtimes in this range. There is also a weak, positive relationship between runtime and total gross, so it is recommended that the film studio create films closer to the high end of this range. It may also be useful to contract with some of the higher-grossing studios or do further analysis on how these studios operate to then emulate their practices.
 
 This analysis should not be used as the end-all case for how to proceed with the production of films. This analysis is limited in so far as there may be other (better) indicators for successful movies. For example, a particular actor or director may be a better predictor for film success than the categories analyzed in this project.
 
